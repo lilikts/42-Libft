@@ -6,7 +6,7 @@
 /*   By: lkloters <lkloters@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/14 13:51:48 by lkloters          #+#    #+#             */
-/*   Updated: 2024/12/10 09:58:23 by lkloters         ###   ########.fr       */
+/*   Updated: 2024/12/27 13:29:28 by lkloters         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,4 +54,6 @@ void	ft_putchar_fd(char c, int fd);
 void	ft_putstr_fd(char *s, int fd);
 void	ft_putendl_fd(char *s, int fd);
 void	ft_putnbr_fd(int n, int fd);
+void	flood_fill(char **map, int x, int y, char target);
+void	flood_fill_target(char **map, int x, int y, char target);
 #endif
