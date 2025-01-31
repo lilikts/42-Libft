@@ -6,7 +6,7 @@
 /*   By: lkloters <lkloters@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/29 10:02:29 by lkloters          #+#    #+#             */
-/*   Updated: 2024/12/10 09:38:05 by lkloters         ###   ########.fr       */
+/*   Updated: 2025/01/31 14:40:51 by lkloters         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ static char	*read_line(int fd, char *remainder)
 		if (read_bytes == -1)
 			return (free(remainder), NULL);
 		buffer[read_bytes] = '\0';
-		temp = join_strings(remainder, buffer);
+		temp = ft_strjoin(remainder, buffer);
 		free(remainder);
 		if (!temp)
 			return (NULL);
