@@ -12,7 +12,7 @@ SRCS = $(LIBFT_DIR)/ft_atoi.c $(LIBFT_DIR)/ft_bzero.c $(LIBFT_DIR)/ft_calloc.c $
        $(LIBFT_DIR)/ft_strdup.c $(LIBFT_DIR)/ft_striteri.c $(LIBFT_DIR)/ft_strjoin.c $(LIBFT_DIR)/ft_strlcat.c $(LIBFT_DIR)/ft_strlcpy.c \
        $(LIBFT_DIR)/ft_strlen.c $(LIBFT_DIR)/ft_strmapi.c $(LIBFT_DIR)/ft_strncmp.c $(LIBFT_DIR)/ft_strnstr.c $(LIBFT_DIR)/ft_strrchr.c \
        $(LIBFT_DIR)/ft_strtrim.c $(LIBFT_DIR)/ft_substr.c $(LIBFT_DIR)/ft_tolower.c $(LIBFT_DIR)/ft_toupper.c $(LIBFT_DIR)/flood_fill.c \
-	   $(LIBFT_DIR)/flood_fill_target.c $(GNL_DIR)/get_next_line.c $(GNL_DIR)/get_next_line_utils.c $(PRINTF_DIR)/format_check.c \
+	   $(LIBFT_DIR)/flood_fill_target.c $(GNL_DIR)/get_next_line.c $(PRINTF_DIR)/format_check.c \
 	   $(PRINTF_DIR)/ft_printf.c $(PRINTF_DIR)/ft_putchar.c $(PRINTF_DIR)/ft_putnbr.c $(PRINTF_DIR)/ft_strlen2.c \
 	   $(PRINTF_DIR)/printf_hexadecimal.c
 
